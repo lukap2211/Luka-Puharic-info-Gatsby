@@ -15,6 +15,25 @@ summary: >-
 interests: >-
   Currently actively learning and working on side projects with modern
   technologies: ReactJS, Redux, Styled Components and GraphQL
+skills:
+  - rating: 10
+    skill: JS
+  - rating: 9
+    skill: CSS
+experience:
+  - dateFrom: 2019-07-01T04:00:00.000Z
+    dateTo: 2019-12-31T05:00:00.000Z
+    company: CNBC
+    title: 'Software Engineer '
+    slug: some slug
+    description: >-
+      Front end developer - Select brand under CNBC (July - Sept)
+
+
+      Part of the Video Monetization team working on CNBC video related frontend
+      tasks (Oct - Dec).
+    technologies: 'Technologies: ReactJS, GraphQL, SCSS, SEO'
+    position: 'New York, New York'
 skillss:
   - rating: 10
     skill: Web Development
