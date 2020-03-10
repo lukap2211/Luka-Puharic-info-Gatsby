@@ -15,4 +15,9 @@ summary: >-
 interests: >-
   Currently actively learning and working on side projects with modern
   technologies: ReactJS, Redux, Styled Components and GraphQL
+skillss:
+  - rating: 10
+    skill: Web Development
+  - rating: 10
+    skill: Mobile First
 ---
