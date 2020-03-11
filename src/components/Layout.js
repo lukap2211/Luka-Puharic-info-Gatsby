@@ -10,7 +10,7 @@ const TemplateWrapper = ({ children, info }) => {
         <title>{info.name} CV</title>
         <meta name="description" content={info.summary} />
 
-        <link rel="shortcut icon" href={`${withPrefix('/')}static/favicon.ico`} />
+        <link rel="shortcut icon" href={`${withPrefix('/')}favicon.ico`} />
 
         <link rel="preconnect" href="https://www.google-analytics.com" />
         <link rel="preconnect" href="https://avatars0.githubusercontent.com/" />
@@ -21,30 +21,30 @@ const TemplateWrapper = ({ children, info }) => {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
 
-        <link rel="manifest" href={`${withPrefix('/')}static/manifest.json`} />
+        <link rel="manifest" href={`${withPrefix('/')}manifest.json`} />
 
         <link
           rel="apple-touch-icon"
           sizes="180x180"
           s
-          href={`${withPrefix('/')}static/apple-touch-icon.png`}
+          href={`${withPrefix('/')}apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}static/favicon-32x32.png`}
+          href={`${withPrefix('/')}favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}static/favicon-16x16.png`}
+          href={`${withPrefix('/')}favicon-16x16.png`}
           sizes="16x16"
         />
 
         <link
           rel="mask-icon"
-          href={`${withPrefix('/')}static/safari-pinned-tab.svg`}
+          href={`${withPrefix('/')}safari-pinned-tab.svg`}
           color="#d11878"
         />
         <meta name="theme-color" content="#fff" />
@@ -54,7 +54,7 @@ const TemplateWrapper = ({ children, info }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}static/og-image.jpg`}
+          content={`${withPrefix('/')}og-image.jpg`}
         />
       </Helmet>
       <div>{children}</div>s
