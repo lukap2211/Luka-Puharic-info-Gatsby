@@ -25,30 +25,10 @@ collections:
           - {label: Email, name: email, widget: string}
           - {label: Github, name: github, widget: string}
           - {label: Linkedin, name: linkedin, widget: string}
-          - {label: LinkedinImage, name: linkedinImage, widget: string}
+          - {label: Linkedin Image, name: linkedinImage, widget: string}
           - {label: Description, name: description, widget: text}
           - {label: Summary, name: summary, widget: text}
           - {label: Interests, name: interests, widget: text}
-          - {label: Skills,
-              name: skills,
-              required: true,
-              widget: list,
-              fields:
-              [
-                { label: Skill, name: skill, required: true, widget: string },
-                {
-                  label: rating,
-                  name: rating,
-                  required: false,
-                  widget: "number",
-                  default: 10,
-                  valueType: "int",
-                  min: 1,
-                  max: 10,
-                  step: 1,
-                }
-              ]
-            }
           - { label: Experience,
               name: experience,
               widget: list,
@@ -58,8 +38,8 @@ collections:
                 {label: Title, name: title, widget: string},
                 {label: Description, name: description, widget: text, required: false},
                 {label: Technologies, name: technologies, widget: text, required: false},
-                {label: Date From, name: dateFrom, widget: date},
-                {label: Date To, name: dateTo, widget: date},
+                {label: Date From, name: dateFrom, widget: date, format: 'MMMM YYYY'},
+                {label: Date To, name: dateTo, widget: date, format: 'MMMM YYYY', required: false },
                 {label: Location, name: location, widget: string},
               ]
             }
@@ -68,8 +48,28 @@ collections:
               widget: list,
               fields:
               [
-                {label: Date To, name: dateTo, widget: date},
                 {label: Institution, name: institution, widget: string},
-                {label: Title, name: title, widget: text},
+                {label: Title, name: title, widget: string},
+                {label: Date To, name: dateTo, widget: date, format: 'YYYY'},
+              ]
+            }
+          - {label: Skills,
+              name: skills,
+              required: true,
+              widget: list,
+              fields:
+              [
+                { label: Skill, name: skill, required: true, widget: string },
+                {
+                  label: Rating,
+                  name: rating,
+                  required: false,
+                  widget: "number",
+                  default: 10,
+                  valueType: "int",
+                  min: 1,
+                  max: 10,
+                  step: 1,
+                }
               ]
             }

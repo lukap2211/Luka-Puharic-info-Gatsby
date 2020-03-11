@@ -66,7 +66,7 @@ experience:
     title: Software Developers
   - company: Econify LLC
     dateFrom: May 2019
-    dateTo: present
+    dateTo:
     description: ''
     location: 'New York, New York'
     technologies: 'ReactJS, GraphQL, SCSS'
@@ -180,10 +180,10 @@ experience:
     technologies: null
     title: Web Design & Developmen
 education:
-  - dateTo: 2013-01-01T05:00:00.000Z
+  - dateTo: 2013
     title: 'Master of Science (MSc), Applied Digital Media'
     institution: Griffith College Dublin
-  - dateTo: 2003-01-01T05:00:00.000Z
+  - dateTo: 2003
     title: 'Bachelor of Science (BSc), Information Technology & Pedagogy'
     institution: 'Faculty of Humanities and Social Sciences, University of Rijeka'
 ---

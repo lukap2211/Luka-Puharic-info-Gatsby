@@ -1,47 +1,60 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import './all.sass'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children, summary }) => {
+const TemplateWrapper = ({ children, info }) => {
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <title>Luka Puharic CV</title>
-        <meta name="description" content={summary} />
+        <title>{info.name} CV</title>
+        <meta name="description" content={info.summary} />
+
+        <link rel="shortcut icon" href={`${withPrefix('/')}static/favicon.ico`} />
+
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        <link rel="preconnect" href="https://avatars0.githubusercontent.com/" />
+        <meta name="msapplication-TileColor" content="#d11878" />
+
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <link rel="manifest" href={`${withPrefix('/')}static/manifest.json`} />
 
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
+          s
+          href={`${withPrefix('/')}static/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          href={`${withPrefix('/')}static/favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          href={`${withPrefix('/')}static/favicon-16x16.png`}
           sizes="16x16"
         />
 
         <link
           rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
+          href={`${withPrefix('/')}static/safari-pinned-tab.svg`}
+          color="#d11878"
         />
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content="Luka Puharic CV" />
+        <meta property="og:title" content={info.name} />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix('/')}static/og-image.jpg`}
         />
       </Helmet>
       <div>{children}</div>s

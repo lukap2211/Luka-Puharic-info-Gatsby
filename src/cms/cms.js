@@ -1,5 +1,5 @@
-import CMS from 'netlify-cms-app'
+// import CMS from 'netlify-cms-app'
 
-import ProfilePreview from './preview-templates/ProfilePreview'
+// import ProfilePreview from './preview-templates/ProfilePreview'
 
-CMS.registerPreviewTemplate('profile', ProfilePreview)
+// CMS.registerPreviewTemplate('profile', ProfilePreview)
