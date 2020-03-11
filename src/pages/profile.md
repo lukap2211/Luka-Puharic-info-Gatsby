@@ -36,35 +36,35 @@ experience:
       tasks (Oct - Dec).
     location: 'New York, New York'
     technologies: 'ReactJS, GraphQL, SCSS, SEO'
-    title: Software Developers
+    title: Software Developer
   - company: Econify LLC
     dateFrom: May 2019
     dateTo: ''
     description: ''
     location: 'New York, New York'
     technologies: 'ReactJS, GraphQL, SCSS'
-    title: Software Developers
+    title: Software Developer
   - company: Verizon Media
     dateFrom: June 2017
     dateTo: February 2019
     description: >-
       Platform consolidation and modules migration between yahoo.com and
       aol.com. CI/CD support for Yahoo.com Lifestyle, Entertainment, and Sports
-      channels: detecting, identifying and resolving issues in the CI/CD
-      process"
+      channels: detecting, identifying and resolving issues in the CI/CD process
     location: 'New York, New York'
     technologies: >-
       Screwdriver, Jenkins, Node.js, AWS, Docker, Kuberneties, Marko, HTML5, JS,
       SCSS, Gulp, Yarn, proprietary test tools
-    title: Associate Manager / Senior Software Engineer | Aol.coms
+    title: Associate Manager / Senior Software Engineer | Aol.com
   - company: AOL
     dateFrom: February 2016
     dateTo: June 2017
     description: >-
       Managed AOL Webmail team in Palo Alto and aol.com FE team in NYC
-      responsible for content migration-related projects.", Change Management
-      lead: gatekeeper for aol.com deployment process, driving all aol.com
-      deployments to production
+      responsible for content migration-related projects.
+
+      Change Management lead: gatekeeper for aol.com deployment process, driving
+      all aol.com deployments to production
     location: 'New York, New York'
     technologies: null
     title: Associate Technical Manager | Core Product
@@ -79,7 +79,7 @@ experience:
       system, Jenkins automated job
     location: 'New York, New York'
     technologies: 'Ruby on Rails, HTML5, JS, SCSS, Gulp, Yarn, AWS, Jenkins, Google AMP'
-    title: Senior Software Engineer | Core Productss
+    title: Senior Software Engineer | Core Products
   - company: AOL Ireland
     dateFrom: August 2014
     dateTo: January 2015
@@ -88,20 +88,20 @@ experience:
       other dev team members to migrate various sites that eventually became
       main channels under aol.com: Kitchendaily.com > www.aol.com/food,
       Stlyelist.com > www.aol.com/style, Dailyfinance.com > www.aol.com/finance,
-      Games.com > www.aol.com/games"
+      Games.com > www.aol.com/games
     location: 'Dublin, Ireland'
     technologies: 'HTML5, JS, SCSS, GruntJS, MySql'
-    title: Senior Software Engineer | Brand Groups
+    title: Senior Software Engineer | Brand Group
   - company: AOL Ireland
     dateFrom: April 2011
     dateTo: July 2014
     description: >-
       Built and maintained many AOL content-driven sites (AOL Industry, AOL
       Entertainment, AOL Music) using proprietary AMP platform (AOL Media
-      Platform)."
+      Platform)
     location: 'Dublin, Ireland'
     technologies: 'PHP & twig, HTML5, JS, SCSS, GruntJS'
-    title: Software Engineer | Media and Vertical Engineerings
+    title: Software Engineer | Media and Vertical Engineering
   - company: AOL Ireland
     dateFrom: October 2009
     dateTo: March 2010
@@ -114,7 +114,7 @@ experience:
     technologies: >-
       XHTML, CSS, PHP, XML, JavaScript, jQuery, AJAX, PhotoShop, Cross browser
       testing, SEO
-    title: Web Technologists
+    title: Web Technologist
   - company: Version 1
     dateFrom: May 2007
     dateTo: February 2009
@@ -126,7 +126,7 @@ experience:
     technologies: >-
       Zend Studio, PLSQL Developer, PHP 4, Oracle 10g, V1 Core Framework
       Application, CSS, LDAP, CVS, Bugzilla
-    title: IT Consultant / PHP Developers
+    title: IT Consultant / PHP Developer
   - company: RIS
     dateFrom: November 2001
     dateTo: November 2006
@@ -140,7 +140,7 @@ experience:
       technical support."
     location: 'Rijeka, Croatia'
     technologies: null
-    title: IT Consultan
+    title: IT Consultant
   - company: Freelance
     dateFrom: January 2000
     dateTo: May 2006
