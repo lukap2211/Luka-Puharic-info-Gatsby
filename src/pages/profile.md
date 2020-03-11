@@ -35,10 +35,10 @@ skills:
     rating: 10
   - skill: JavaScript
     rating: 9
-  - skill: jQuery
-    rating: 8
   - skill: Node.js
     rating: 8
+  - rating: 7
+    skill: GatsbyJS
   - skill: Express.js
     rating: 7
   - skill: AWS
@@ -54,113 +54,136 @@ skills:
   - skill: SQL
     rating: 9
 experience:
-
-      - company: CNBC
-        dateFrom: July 2019
-        dateTo: Dec 2019
-        description: >-
-          Front end developer - Select brand under CNBC (July - Sept)",
-          Part of the Video Monetization team working on CNBC video related frontend tasks (Oct - Dec).
-        location: New York, New York
-        technologies: ReactJS, GraphQL, SCSS, SEO
-        title: Software Developers
-
-      - company: Econify LLC
-        dateFrom: May 2019
-        dateTo: present
-        description: >-
-
-        location: New York, New York
-        technologies: ReactJS, GraphQL, SCSS
-        title: Software Developers
-
-      - company: Verizon Media
-        dateFrom: June 2017
-        dateTo: February 2019
-        description: >-
-          Platform consolidation and modules migration between yahoo.com and aol.com. CI/CD support for Yahoo.com Lifestyle, Entertainment, and Sports channels: detecting, identifying and resolving issues in the CI/CD process"
-        location: New York, New York
-        technologies: Screwdriver, Jenkins, Node.js, AWS, Docker, Kuberneties, Marko, HTML5, JS, SCSS, Gulp, Yarn, proprietary test tools
-        title: Associate Manager / Senior Software Engineer | Aol.coms
-
-      - company: AOL
-        dateFrom: February 2016
-        dateTo: June 2017
-        description: >-
-          Managed AOL Webmail team in Palo Alto and aol.com FE team in NYC responsible for content migration-related projects.",
-          Change Management lead: gatekeeper for aol.com deployment process, driving all aol.com deployments to production
-        location: New York, New York
-        technologies:
-        title: Associate Technical Manager | Core Product
-
-      - company: AOL
-        dateFrom: January 2015
-        dateTo: February 2016
-        description: >-
-          CMS: worked closely with stakeholders, editors and product people to build a CMS to support aol.com based on users requirements",
-          Integration with third-party technologies like AWS services, automated deployment tasks using Gulp, SEO optimisation, Google AMP implementation, GitHub versioning system, Jenkins automated job
-        location: New York, New York
-        technologies: Ruby on Rails, HTML5, JS, SCSS, Gulp, Yarn, AWS, Jenkins, Google AMP
-        title: Senior Software Engineer | Core Productss
-
-      - company: AOL Ireland
-        dateFrom: August 2014
-        dateTo: January 2015
-        description: >-
-          Content Migration: worked closely with product managers, design team and other dev team members to migrate various sites that eventually became main channels under aol.com: Kitchendaily.com > www.aol.com/food, Stlyelist.com > www.aol.com/style, Dailyfinance.com > www.aol.com/finance, Games.com > www.aol.com/games"
-        location: Dublin, Ireland
-        technologies: HTML5, JS, SCSS, GruntJS, MySql
-        title: Senior Software Engineer | Brand Groups
-
-      - company: AOL Ireland
-        dateFrom: April 2011
-        dateTo: July 2014
-        description: >-
-          Built and maintained many AOL content-driven sites (AOL Industry, AOL Entertainment, AOL Music) using proprietary AMP platform (AOL Media Platform)."
-        location: Dublin, Ireland
-        technologies: PHP & twig, HTML5, JS, SCSS, GruntJS
-        title: Software Engineer | Media and Vertical Engineerings
-
-      - company: AOL Ireland
-        dateFrom: October 2009
-        dateTo: March 2010
-        description: >-
-          Built and develop International AOL Money&Finance web sites based on specific requirements gathered on regular weekly meetings and demos. Worked as a part of the international and global team located all over the world (US, India, UK, Germany)."
-        location: Dublin, Ireland
-        technologies: XHTML, CSS, PHP, XML, JavaScript, jQuery, AJAX, PhotoShop, Cross browser testing, SEO
-        title: Web Technologists
-
-      - company: Version 1
-        dateFrom: May 2007
-        dateTo: February 2009
-        description: >-
-          Part of the team working on development of proprietary PHP Core Framework Application. The content management system examination of the My Version 1 web portal. Internal timesheet system development."
-        location: Dublin, Ireland
-        technologies: Zend Studio, PLSQL Developer, PHP 4, Oracle 10g, V1 Core Framework Application, CSS, LDAP, CVS, Bugzilla
-        title: IT Consultant / PHP Developers
-
-      - company: RIS
-        dateFrom: November 2001
-        dateTo: November 2006
-        description: >-
-          Management and development of the new web sites, with the specific requirements provided from clients. Coordinating closely with Account Executives, actively soliciting new clients and nurturing existing client accounts, ensuring their needs and requirements were not only accommodated but surpassed. Training clients in subsequent website maintenance. Initiating a company-wide changeover to a much faster ISP with enhanced technical support."
-        location: Rijeka, Croatia
-        technologies:
-        title: IT Consultan
-
-      - company: Freelance
-        dateFrom: January 2000
-        dateTo: May 2006
-        description: >-
-          Creation and maintenance of many Web sites and applications for corporate, non-profit and other clients. Performed the full spectrum of Web-related tasks, including rapid prototyping, design and layout, graphics creation and optimisation"
-        location: Rijeka, Croatia
-        technologies:
-        title: Web Design & Developmen
+  - company: CNBC
+    dateFrom: July 2019
+    dateTo: Dec 2019
+    description: >-
+      Front end developer - Select brand under CNBC (July - Sept)", Part of the
+      Video Monetization team working on CNBC video related frontend tasks (Oct
+      - Dec).
+    location: 'New York, New York'
+    technologies: 'ReactJS, GraphQL, SCSS, SEO'
+    title: Software Developers
+  - company: Econify LLC
+    dateFrom: May 2019
+    dateTo: present
+    description: ''
+    location: 'New York, New York'
+    technologies: 'ReactJS, GraphQL, SCSS'
+    title: Software Developers
+  - company: Verizon Media
+    dateFrom: June 2017
+    dateTo: February 2019
+    description: >-
+      Platform consolidation and modules migration between yahoo.com and
+      aol.com. CI/CD support for Yahoo.com Lifestyle, Entertainment, and Sports
+      channels: detecting, identifying and resolving issues in the CI/CD
+      process"
+    location: 'New York, New York'
+    technologies: >-
+      Screwdriver, Jenkins, Node.js, AWS, Docker, Kuberneties, Marko, HTML5, JS,
+      SCSS, Gulp, Yarn, proprietary test tools
+    title: Associate Manager / Senior Software Engineer | Aol.coms
+  - company: AOL
+    dateFrom: February 2016
+    dateTo: June 2017
+    description: >-
+      Managed AOL Webmail team in Palo Alto and aol.com FE team in NYC
+      responsible for content migration-related projects.", Change Management
+      lead: gatekeeper for aol.com deployment process, driving all aol.com
+      deployments to production
+    location: 'New York, New York'
+    technologies: null
+    title: Associate Technical Manager | Core Product
+  - company: AOL
+    dateFrom: January 2015
+    dateTo: February 2016
+    description: >-
+      CMS: worked closely with stakeholders, editors and product people to build
+      a CMS to support aol.com based on users requirements", Integration with
+      third-party technologies like AWS services, automated deployment tasks
+      using Gulp, SEO optimisation, Google AMP implementation, GitHub versioning
+      system, Jenkins automated job
+    location: 'New York, New York'
+    technologies: 'Ruby on Rails, HTML5, JS, SCSS, Gulp, Yarn, AWS, Jenkins, Google AMP'
+    title: Senior Software Engineer | Core Productss
+  - company: AOL Ireland
+    dateFrom: August 2014
+    dateTo: January 2015
+    description: >-
+      Content Migration: worked closely with product managers, design team and
+      other dev team members to migrate various sites that eventually became
+      main channels under aol.com: Kitchendaily.com > www.aol.com/food,
+      Stlyelist.com > www.aol.com/style, Dailyfinance.com > www.aol.com/finance,
+      Games.com > www.aol.com/games"
+    location: 'Dublin, Ireland'
+    technologies: 'HTML5, JS, SCSS, GruntJS, MySql'
+    title: Senior Software Engineer | Brand Groups
+  - company: AOL Ireland
+    dateFrom: April 2011
+    dateTo: July 2014
+    description: >-
+      Built and maintained many AOL content-driven sites (AOL Industry, AOL
+      Entertainment, AOL Music) using proprietary AMP platform (AOL Media
+      Platform)."
+    location: 'Dublin, Ireland'
+    technologies: 'PHP & twig, HTML5, JS, SCSS, GruntJS'
+    title: Software Engineer | Media and Vertical Engineerings
+  - company: AOL Ireland
+    dateFrom: October 2009
+    dateTo: March 2010
+    description: >-
+      Built and develop International AOL Money&Finance web sites based on
+      specific requirements gathered on regular weekly meetings and demos.
+      Worked as a part of the international and global team located all over the
+      world (US, India, UK, Germany)."
+    location: 'Dublin, Ireland'
+    technologies: >-
+      XHTML, CSS, PHP, XML, JavaScript, jQuery, AJAX, PhotoShop, Cross browser
+      testing, SEO
+    title: Web Technologists
+  - company: Version 1
+    dateFrom: May 2007
+    dateTo: February 2009
+    description: >-
+      Part of the team working on development of proprietary PHP Core Framework
+      Application. The content management system examination of the My Version 1
+      web portal. Internal timesheet system development."
+    location: 'Dublin, Ireland'
+    technologies: >-
+      Zend Studio, PLSQL Developer, PHP 4, Oracle 10g, V1 Core Framework
+      Application, CSS, LDAP, CVS, Bugzilla
+    title: IT Consultant / PHP Developers
+  - company: RIS
+    dateFrom: November 2001
+    dateTo: November 2006
+    description: >-
+      Management and development of the new web sites, with the specific
+      requirements provided from clients. Coordinating closely with Account
+      Executives, actively soliciting new clients and nurturing existing client
+      accounts, ensuring their needs and requirements were not only accommodated
+      but surpassed. Training clients in subsequent website maintenance.
+      Initiating a company-wide changeover to a much faster ISP with enhanced
+      technical support."
+    location: 'Rijeka, Croatia'
+    technologies: null
+    title: IT Consultan
+  - company: Freelance
+    dateFrom: January 2000
+    dateTo: May 2006
+    description: >-
+      Creation and maintenance of many Web sites and applications for corporate,
+      non-profit and other clients. Performed the full spectrum of Web-related
+      tasks, including rapid prototyping, design and layout, graphics creation
+      and optimisation"
+    location: 'Rijeka, Croatia'
+    technologies: null
+    title: Web Design & Developmen
 education:
   - dateTo: 2013-01-01T05:00:00.000Z
-    title: Master of Science (MSc), Applied Digital Media
+    title: 'Master of Science (MSc), Applied Digital Media'
     institution: Griffith College Dublin
   - dateTo: 2003-01-01T05:00:00.000Z
-    title: Bachelor of Science (BSc), Information Technology & Pedagogy
-    institution: Faculty of Humanities and Social Sciences, University of Rijeka
+    title: 'Bachelor of Science (BSc), Information Technology & Pedagogy'
+    institution: 'Faculty of Humanities and Social Sciences, University of Rijeka'
 ---
