@@ -29,7 +29,7 @@ experience:
     title: Software Developers
   - company: Econify LLC
     dateFrom: May 2019
-    dateTo: March 2020
+    dateTo: ''
     description: ''
     location: 'New York, New York'
     technologies: 'ReactJS, GraphQL, SCSS'
