@@ -17,13 +17,20 @@ interests: >-
   Currently actively learning and working on side projects with modern
   technologies: ReactJS, Redux, Styled Components and GraphQL
 experience:
+  - dateFrom: January 2020
+    dateTo: April 2020
+    company: HawkFish
+    title: IT Consultant / Front End Developer
+    technologies: 'GatsbyJS, Headless Wordpress, ReactJS, CSS-in-JS, AWS'
+    location: 'New York, New York'
   - company: CNBC
     dateFrom: July 2019
     dateTo: Dec 2019
     description: >-
-      Front end developer - Select brand under CNBC (July - Sept)", Part of the
-      Video Monetization team working on CNBC video related frontend tasks (Oct
-      - Dec).
+      Front end developer - Select brand under CNBC (July - Sept)
+
+      Part of the Video Monetization team working on CNBC video related frontend
+      tasks (Oct - Dec).
     location: 'New York, New York'
     technologies: 'ReactJS, GraphQL, SCSS, SEO'
     title: Software Developers
