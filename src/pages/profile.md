@@ -23,6 +23,9 @@ experience:
     title: IT Consultant / Front End Developer
     technologies: 'GatsbyJS, Headless Wordpress, ReactJS, CSS-in-JS, AWS'
     location: 'New York, New York'
+    description: >-
+      Front End development on Mike Bloomberg's campaign site:
+      https://www.mikebloomberg.com/
   - company: CNBC
     dateFrom: July 2019
     dateTo: Dec 2019
