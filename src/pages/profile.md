@@ -16,43 +16,6 @@ summary: >-
 interests: >-
   Currently actively learning and working on side projects with modern
   technologies: ReactJS, Redux, Styled Components and GraphQL
-skills:
-  - skill: Web Development
-    rating: 10
-  - skill: Mobile First
-    rating: 10
-  - skill: Responsive Web Design
-    rating: 10
-  - skill: Agile Methodologies
-    rating: 9
-  - skill: Search Engine Optimisation
-    rating: 9
-  - skill: Process Automation
-    rating: 8
-  - skill: HTML5
-    rating: 10
-  - skill: CSS
-    rating: 10
-  - skill: JavaScript
-    rating: 9
-  - skill: Node.js
-    rating: 8
-  - rating: 7
-    skill: GatsbyJS
-  - skill: Express.js
-    rating: 7
-  - skill: AWS
-    rating: 6
-  - skill: Docker
-    rating: 6
-  - skill: Jenkins
-    rating: 5
-  - skill: Kuberneties
-    rating: 5
-  - skill: MySQL
-    rating: 8
-  - skill: SQL
-    rating: 9
 experience:
   - company: CNBC
     dateFrom: July 2019
@@ -66,7 +29,7 @@ experience:
     title: Software Developers
   - company: Econify LLC
     dateFrom: May 2019
-    dateTo:
+    dateTo: March 2020
     description: ''
     location: 'New York, New York'
     technologies: 'ReactJS, GraphQL, SCSS'
@@ -186,4 +149,41 @@ education:
   - dateTo: 2003
     title: 'Bachelor of Science (BSc), Information Technology & Pedagogy'
     institution: 'Faculty of Humanities and Social Sciences, University of Rijeka'
+skills:
+  - skill: Web Development
+    rating: 10
+  - skill: Mobile First
+    rating: 10
+  - skill: Responsive Web Design
+    rating: 10
+  - skill: Agile Methodologies
+    rating: 9
+  - skill: Search Engine Optimisation
+    rating: 9
+  - skill: Process Automation
+    rating: 8
+  - skill: HTML5
+    rating: 10
+  - skill: CSS
+    rating: 10
+  - skill: JavaScript
+    rating: 9
+  - skill: Node.js
+    rating: 8
+  - rating: 7
+    skill: GatsbyJS
+  - skill: Express.js
+    rating: 7
+  - skill: AWS
+    rating: 6
+  - skill: Docker
+    rating: 6
+  - skill: Jenkins
+    rating: 5
+  - skill: Kuberneties
+    rating: 5
+  - skill: MySQL
+    rating: 8
+  - skill: SQL
+    rating: 9
 ---
